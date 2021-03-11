@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(164, 140, 201);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size:xx-large;
+  margin-top: 130px;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  background-color: inherit;
+  width: 450px;
+  min-height: 300px;
+  height: min-content;
+  border-radius: 5px;
+  padding: 20px;
+  display: inline-block;
+  justify-content: space-evenly;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #000000;
+  background-color: #e2e072;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+.score-section {
+  display: inline-block;
+  font-size: 24px;
+  align-items: center;
+}
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button:hover {
+  background-color: #3fe7d9;
+}
+
+button svg {
+  margin-right: 5px;
+}
